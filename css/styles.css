@@ -149,6 +149,9 @@ img {
     min-height: 400px;
     background-color: #2F303A;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-bottom: 157px;
 }
@@ -189,7 +192,12 @@ img {
     display: flex;
 }
 
+.features-title-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .features-subtitle {
+    padding-bottom: 10px;
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 14px;
@@ -216,6 +224,7 @@ img {
 
 /* ------ ABOUT ------ */
 .title {
+    padding-bottom: 50px;
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
@@ -248,6 +257,7 @@ img {
 }
 
 .team-name {
+    margin-bottom: 10px;
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
@@ -267,20 +277,26 @@ img {
     color: #757575;
 }
 
+.team-content {
+    padding: 30px 55px;
+}
+
 .team {
     padding-top: 94px;
-    padding-bottom: 94px
+    padding-bottom: 94px;
 }
 /* ------ END TEAM ------ */
 
 /* ------ FOOTER ------ */
 footer {
+    padding: 60px 0px;
     min-width: 1600px;
     min-height: 252px;
-    background: #2F303A;
+    background-color: #2F303A;
 }
 
 .address-text {
+    margin-top: 20px;
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
@@ -320,6 +336,9 @@ footer {
 }
 
 /* ------ PROJECTS ------*/
+.portfolio-title {
+    display: flex;
+}
 .project-text {
     font-family: var(--main-font);
     font-weight: 400;
