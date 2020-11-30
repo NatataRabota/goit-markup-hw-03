@@ -320,6 +320,7 @@ footer {
 .filter-title {
     display: flex;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .filter-item:not(:last-child) {
@@ -348,6 +349,8 @@ footer {
 /* ------ PROJECTS ------*/
 .portfolio-title {
     display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 .card {
