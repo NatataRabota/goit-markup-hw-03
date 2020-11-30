@@ -317,7 +317,17 @@ footer {
 
 /* =============================ПОРТФОЛИО============================= */
 
+.filter-title {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.filter-item:not(:last-child) {
+    margin-right: 8px;
+}
+
 .filter-btn {
+    padding: 6px 22px;
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
@@ -339,6 +349,12 @@ footer {
 .portfolio-title {
     display: flex;
 }
+
+.card {
+    display: block;
+    padding: 20px 24px;
+}
+
 .project-text {
     font-family: var(--main-font);
     font-weight: 400;
@@ -349,6 +365,7 @@ footer {
 }
 
 .project-title {
+    margin-bottom: 4px;
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 18px;
