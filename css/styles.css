@@ -316,9 +316,10 @@ footer {
 /* ------ END FOOTER ------ */
 
 /* =============================ПОРТФОЛИО============================= */
-
-.filter-title {
+.items {
     display: flex;
+}
+.filter-title {
     margin-bottom: 50px;
     justify-content: center;
 }
@@ -348,7 +349,6 @@ footer {
 
 /* ------ PROJECTS ------*/
 .portfolio-title {
-    display: flex;
     flex-wrap: wrap;
     padding: 0;
 }
