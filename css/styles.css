@@ -7,7 +7,6 @@
 /* =============================СТУДИЯ============================= */
 
 body {
-    background-color: #E5E5E5;
     color: #212121;
 }
 
@@ -146,14 +145,15 @@ img {
 
 /* ------ HERO ------ */
 .hero {
-    min-height: 400px;
-    background-color: #2F303A;
-    margin: auto;
     display: flex;
     justify-content: center;
+    margin: auto;
     align-items: center;
     text-align: center;
     margin-bottom: 157px;
+    min-height: 400px;
+
+    background-color: #2F303A;
 }
 
 .hero-title {
@@ -353,12 +353,19 @@ footer {
     padding: 0;
 }
 
+.projects-list {
+    width: calc((100%-60px)/3);
+}
+
 .card {
     display: block;
     padding: 20px 24px;
+    max-width: 370px;
+    margin-bottom: 30px;
 }
 
 .project-text {
+    display: block;
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 16px;
